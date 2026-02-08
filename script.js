@@ -65,6 +65,18 @@ function countvowel(str){
 }
 
 
+function cntv(str){
+     let cnt = 0;
+     for(const chr of str){
+          if(chr === "a"|| chr ==="e"|| chr === "i"||chr === "o"||chr === "u"){
+               cnt++
+          }
+     }
+     console.log(cnt)
+}
+
+
+
 let countvow = (str) =>{
       let count = 0;
      for(const char of str){

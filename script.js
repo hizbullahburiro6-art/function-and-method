@@ -78,6 +78,7 @@ function cntv(str){
 
 
 let countvow = (str) =>{
+
       let count = 0;
      for(const char of str){
           if(char === "a" || char ==="e" || char === "i" || char ==="o" ||char ==="u"){
@@ -87,3 +88,21 @@ let countvow = (str) =>{
 
      console.log(count)
 }
+
+let arr = [1,2,3,4,5,6,];
+arr.forEach(function pval(val,adx){
+     console.log(val.toUpperCase(),idx)
+})
+
+
+let arey = ["sukkyr","karachi","isla,bad","jacobabad"]
+
+arey.forEach((val,idx) => {
+     console.log(val.toUpperCase(),idx)
+})
+
+
+
+
+
+

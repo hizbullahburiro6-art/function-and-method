@@ -89,20 +89,16 @@ let countvow = (str) =>{
      console.log(count)
 }
 
-let arr = [1,2,3,4,5,6,];
-arr.forEach(function pval(val,adx){
-     console.log(val.toUpperCase(),idx)
+let arr = ["sukkur","jaconanad","karachi","lahore"]
+
+// arr.forEach(function per (val){
+//      console.log(val);
+// })
+
+
+arr.forEach((val) => {
+     console.log(val)
 })
-
-
-let arey = ["sukkyr","karachi","isla,bad","jacobabad"]
-
-arey.forEach((val,idx) => {
-     console.log(val.toUpperCase(),idx)
-})
-
-
-
 
 
 

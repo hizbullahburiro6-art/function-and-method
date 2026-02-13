@@ -89,16 +89,27 @@ let countvow = (str) =>{
      console.log(count)
 }
 
-let arr = ["sukkur","jaconanad","karachi","lahore"]
+//  arr = ["sukkur","jaconanad","karachi","lahore"]
 
-// arr.forEach(function per (val){
-//      console.log(val);
+// // arr.forEach(function per (val){
+// //      console.log(val);
+// // })
+
+// let
+// arr.forEach((val,idx,arr) => {
+//      console.log(val.toUpperCase(), idx,arr)
 // })
 
 
-arr.forEach((val) => {
-     console.log(val)
+
+
+// let  number =  [34,45,66,78,94,32,]
+// number.forEach((num) =>{
+//      console.log(num*num)
+// })
+
+
+let num = [123,344,555,665,]
+num.forEach((num) =>{
+     console.log(num*num)
 })
-
-
-

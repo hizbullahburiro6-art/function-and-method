@@ -109,7 +109,19 @@ let countvow = (str) =>{
 // })
 
 
-let num = [123,344,555,665,]
-num.forEach((num) =>{
-     console.log(num*num)
+// let num = [12,3,5,6,]
+//  let newar = num.map((val) => {
+//      return val * 2  ;
+// })
+//  console.log(newar)
+
+// // num.forEach((num) =>{
+//      console.log(num*num)
+// })
+
+
+
+let nam = [12,3,4,5,5,]
+nam.forEach((vsl,obj) =>{
+     console.log(vsl*vsl,obj)
 })

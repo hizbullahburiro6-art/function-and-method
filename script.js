@@ -121,7 +121,52 @@ let countvow = (str) =>{
 
 
 
-let nam = [12,3,4,5,5,]
-nam.forEach((vsl,obj) =>{
-     console.log(vsl*vsl,obj)
-})
+// let nam = [12,3,4,5,5,]
+//  let ans = nam.map((vsl,obj) =>{
+//     return vsl * 5
+// })
+
+// console.log(ans)
+
+
+// let arr = [1,2,3,4,5,6,7,]
+
+//  let evenarry = arr.filter((val) =>{
+//      return val > 3 ;
+// })
+
+// console.log(evenarry)
+
+
+
+// let arr2 = [223,456,3,5,2323,233,545]
+// let even = arr2.filter((val)=>{
+//      return val > 3 
+// })
+
+// console.log(even)
+
+
+// let arr = [1,2,4,5,]
+
+
+//  const output = arr.reduce((res, cru) =>{
+//       return res + cru 
+// })
+
+// console.log(output);
+  let ar =  [,3,4,5,6,]
+   const output = ar.reduce((res, cru) =>{
+     res+cru
+  })
+console.log(output)
+
+
+
+
+
+// let marks = [ 6,80.90,95,60,70,76 ]
+// marks.filter((val) =>{
+//       return val > 90 
+
+// })  

@@ -155,11 +155,11 @@ let countvow = (str) =>{
 // })
 
 // console.log(output);
-  let ar =  [,3,4,5,6,]
-   const output = ar.reduce((res, cru) =>{
-     res+cru
-  })
-console.log(output)
+//   let ar =  [,3,4,5,6,]
+//    const output = ar.reduce((res, cru) =>{
+//     return res+cru
+//   })
+// console.log(output)
 
 
 
@@ -170,3 +170,4 @@ console.log(output)
 //       return val > 90 
 
 // })  
+

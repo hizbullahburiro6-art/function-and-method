@@ -171,3 +171,47 @@ let countvow = (str) =>{
 
 // })  
 
+
+
+// let marks = [ 45,65,90,93,96,34,63,35,]
+
+
+//  let  toopers = marks.filter((val)=>{
+//  return val > 90
+// })
+
+//  console.log(toopers);
+
+// let n = prompt("enter a number :")
+// let arr = []
+// for(let i=1; i<=n; i++ ){
+//      arr[i-1] = i;
+// }
+
+// console.log(arr)
+
+//  let sum = arr.reduce((pre,cru)=>{
+//      return pre + cru
+// })
+
+// console.log(sum)
+
+
+
+
+
+let number = [12,34,556,77]
+
+let c = number.reduce((cru,pre) =>{
+     return cru + pre
+})
+
+console.log(c)
+
+
+let numbr = [12,344,4543,]
+let cal = numbr.reduce((cru,pre) =>{
+     return cru + pre
+})
+
+console.log(cal)
